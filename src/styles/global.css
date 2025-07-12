@@ -1,0 +1,48 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-height: 499px) {
+  body {
+    overflow: auto;
+    min-height: 700px;
+  }
+}
+
+:root {
+  font-size: 16px;
+}
+
+.bg-body-tertiary {
+  background-color: var(--background-tertiary) !important;
+}
+
+.background-primary {
+  background-color: var(--background-primary) !important;
+}
+
+.background-secondary {
+  background-color: var(--background-secondary) !important;
+}
+
+.btn-light {
+  background-color: #FFFFFF;
+}
+
+.blurred {
+  filter: blur(100px);
+}
+

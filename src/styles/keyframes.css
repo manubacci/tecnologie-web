@@ -1,0 +1,92 @@
+@keyframes appear {
+    0% {
+        opacity: 0;
+        filter: blur(5px);
+        transform: scale(0.98);
+    }
+
+    100% {
+        opacity: 1;
+        filter: blur(0px);
+        transform: scale(1);
+    }
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 1;
+        filter: blur(0px);
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        filter: blur(5px);
+        transform: scale(0.98);
+    }
+}
+
+@keyframes pulse-in {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    75% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes pulse-out {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+}
+
+.appear {
+    animation: appear 0.1s ease-in-out forwards !important;
+}
+
+.disappear {
+    animation: disappear 0.1s ease-in-out forwards !important;
+}
+
+.add {
+    animation: appear 0.15s ease-in-out forwards !important;
+}
+
+.remove {
+    animation: disappear 0.15s ease-in-out forwards !important;
+}
+
+.pulse-in {
+    animation: pulse-in 0.25s ease-in-out forwards !important;
+}
+
+.pulse-out {
+    animation: pulse-out 0.25s ease-in-out forwards !important;
+}
+
+:root {
+    --pop-xs: 0.86;
+    --pop-sm: 0.88;
+    --pop-md: 0.9;
+    --pop-lg: 0.94;
+    --pop-xl: 0.96;
+    --pop-xxl: 0.99;
+  }
