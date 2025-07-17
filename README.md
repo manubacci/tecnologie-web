@@ -34,4 +34,4 @@ In particolare, ho sviluppato:
 ## Informazioni
 Il progetto è accessibile via web all’indirizzo: *http://manuel.bacci.tw.cs.unibo.it/*, oppure localmente sul server, al percorso: *home/web/manuel.bacci/html*.
 
-Il calendario dell’applicazione è preconfigurato con eventi dimostrativi associati al profilo utente *fv1*, accessibile tramite password *12345678*, e relativi al periodo intorno al 3 luglio 2025. Per una corretta visualizzazione degli esempi di eventi e attività, si consiglia di utilizzare l’apposita funzione *Timemachine* per impostare la data corrispondente.
+Il calendario dell’applicazione è preconfigurato con eventi dimostrativi associati al profilo utente *fv1*, accessibile tramite password *12345678*, e relativi al periodo intorno al *3 luglio 2025*. Per una corretta visualizzazione degli esempi di eventi e attività, si consiglia di utilizzare l’apposita funzione *Timemachine* per impostare la data corrispondente.
